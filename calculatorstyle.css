@@ -1,0 +1,64 @@
+#calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+#equalsButton {
+    background-color: #4CAF50; /* Green color from index page */
+    color: #fff;
+}
+
+#clearButton {
+    background-color: #ff3333; /* Red color for clear button */
+    color: #fff;
+}
+
+#exchangeRateBtn,
+#resetExchangeRateBtn {
+    background-color: #666; /* Dark grey for exchange rate buttons */
+    color: #fff;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#calculator button {
+    font-family: 'Raleway', sans-serif;
+}
