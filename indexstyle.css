@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     font-family: "Raleway", sans-serif;
@@ -84,3 +83,6 @@ input[type="submit"]:hover {
     font-size: 1.5em;
 }
 
+#contact {
+    font-family: "Raleway", sans-serif;
+}
