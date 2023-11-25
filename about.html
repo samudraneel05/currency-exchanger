@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CurrencySangam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js" defer></script>
+    <script src="calculator.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="w3-bar-item w3-button w3-wide">CURRENCY SANGAM</a>
+        <a href="about.html">About</a>
+        <a href="calculator.html" id="calculatorBtn">Calculator</a>
+        <a href="hisandfav.html">History and Favorites</a>
+        <a href="news.html" id="newsBtn">Financial News</a>
+    </div>
+
+    <!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+    <h3 class="w3-center">THE TEAM</h3>
+    <p class="w3-center w3-large">The ones who built this project</p>
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+      <div class="w3-col l3 m6 w3-margin-bottom" style= "margin-left:169px;">
+        <div class="w3-card">
+          <img src="https://media.licdn.com/dms/image/D4D03AQGYI_AmqzcUYg/profile-displayphoto-shrink_100_100/0/1700895365770?e=1706140800&v=beta&t=ooqPUbVwpjLKUQA8UkhTtj1EvMLECWBjb5atN7p5Kl0" alt="Guransh" style="width:100%">
+          <div class="w3-container">
+            <h3>Guransh Goyal</h3>
+            <p class="w3-opacity">Learner</p>
+            <p>I do not know how I ended up here. Am a core Punjabi munda at heart. Hobbies include eating and sleeping. Find me in my bed at SVBH in MNNIT 24x7!</p>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="https://lh3.googleusercontent.com/WlDXVEjZh5WIf_CgIlq-Gk188NN51ObrpL52byw6KHZYOXKJnbROYZEiMwCu10AdbZtYEebvF-MYj8uSXHMXEIZfN-twVYdDRgA4Fe6nZA9j3Ce-MrfwO5-10LkPIcLMU2jcSn6eYQk=w2400" alt="Neel" style="width:100%">
+          <div class="w3-container">
+            <h3>Samudraneel Sarkar</h3>
+            <p class="w3-opacity">Web Developer</p>
+            <p>I spend all my time glued to the computer. And for the last time, no, I'm not married to it. Got programming issues? Contact me- or maybe not!</p>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="https://media.licdn.com/dms/image/D5603AQH1bdmEYe9J5g/profile-displayphoto-shrink_200_200/0/1677823049818?e=1706140800&v=beta&t=NopUU1WGQQLt49_RDWb16adW4fEsbO1pf57JuwomI8w" alt="Vivek" style="width:100%">
+          <div class="w3-container">
+            <h3>Vivek Kumar</h3>
+            <p class="w3-opacity">CSS Designer</p>
+            <p>I love studying and technology. Currently living in the fine city of Allahabad. Make-up artist, but for webpages. Connect with me at LinkedIn!</p>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+    <h3 class="w3-center">CONTACT</h3>
+    <p class="w3-center w3-large">Let's get in touch. Send me a message:</p>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Kolkata, India</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8337053728</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: samudraneelsarkar11t@gmail.com</p>
+      <br>
+      <form id ="contact" action="https://formspree.io/f/mrgdqnod" method="POST">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="name"></p>
+        <p><input class="w3-input w3-border" type="number" placeholder="Phone number" required name="phone"></p>
+        <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit" name="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- Image of address -->
+      <img src="https://images.collegedunia.com/public/college_data/images/campusimage/15036539021431363476head.jpg" alt="MNNIT" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+    </div>
+  </div>
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#team" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <p class="w3-small">Here to help you with converting currencies. So jump right in!</p>
+        <div class="w3-xlarge w3-section">
+          <a href="https://www.facebook.com/samudraneel.sarkar.9/" style="text-decoration:none;" class="fa fa-facebook-official w3-hover-opacity"></a>
+          <a href="https://www.instagram.com/samudraneel05/" style="text-decoration:none;" class="fa fa-instagram w3-hover-opacity"></a>
+          <a href="https://twitter.com/samudraneel05" style="text-decoration:none;" class="fa fa-twitter w3-hover-opacity"></a>
+         </div>
+    </footer>
+
+</body>
+</html>

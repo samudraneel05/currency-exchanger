@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.news-category {
+    margin-bottom: 30px;
+}
+
+.news-category h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.news-category p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.news-category a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
