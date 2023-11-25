@@ -1,5 +1,3 @@
-// hisandfav.js
-
 document.addEventListener('DOMContentLoaded', function () {
     // Constants for local storage keys
     const HISTORY_KEY = 'conversionHistory';
